@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="theme-toggle-btn" class="btn">Toggle Theme</button>
+    </header>
+    <main id="quiz-container">
+        <section id="question-container">
+            <p id="question">Question text will go here</p>
+            <div id="answer-buttons" class="btn-container">
+            </div>
+            <p id="multiple-answer-note" class="note">* This question allows multiple answers</p>
+            <button id="confirm-btn" class="btn">Confirm</button>
+        </section>
+        <button id="next-btn" class="btn">Next Question</button>
+        <section id="score-container">
+            <p id="score"></p>
+            <button id="restart-btn" class="btn">Restart Quiz</button>
+        </section>
+        <p id="timer">20s</p>
+    </main>
+    <footer id="question-counter">Question 1 of X</footer>
+    <script src="constants.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
